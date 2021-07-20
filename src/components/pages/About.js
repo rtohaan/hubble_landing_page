@@ -8,8 +8,8 @@ function About () {
           <h1>HUBBLE SPACE TELESCOPE</h1>
           <p>See through Hubble's eyes </p>
           <p>Visit <a style={{textDecoration: 'none'}} href="https://hubblesite.org/">NASA's site </a> 
-           to learn about Hubble's update</p>
-          <p>as the satellite is currently unoperational</p>
+           to learn more about Hubble</p>
+          <p></p>
         </div>
       );
     }
