@@ -30,7 +30,7 @@ function Cards() {
             <CardItem
               src={img4}
               text='Hubble Images a Galaxy in Dazzling Detail'
-              label='Spiral galaxy NGC 691,'
+              label='Spiral galaxy NGC 691'
             />
             <CardItem
               src={img3}
