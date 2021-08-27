@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
-import { Button } from './Button';
+import '../../App.css';
+import { Button } from '../button/Button';
 import './HeroSection.css';
-import Milky from '../assests/videos/mlky_6.mp4'
+import Milky from '../../assests/videos/mlky_6.mp4'
 
 function HeroSection() {
   return (

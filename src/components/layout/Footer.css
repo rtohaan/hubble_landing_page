@@ -7,27 +7,40 @@
   align-items: center;
 }
 
-.footer-subscription {
+.footer-desc {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
   margin-bottom: 24px;
   padding: 24px;
   color: #fff;
 }
 
-.footer-subscription > p {
+.footer-desc > p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-.footer-subscription-heading {
+.footer-desc-heading {
   margin-bottom: 24px;
   font-size: 24px;
 }
+
+.hubble-photo {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  max-height: 100%;
+}
+
+.hubble-photo img{
+  width: 100%;
+  object-fit: contain;
+  max-height: 80vh;
+}
+
 .footer-input {
   padding: 8px 20px;
   border-radius: 2px;
@@ -44,6 +57,8 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
+  background-color: #242424;
+
 }
 
 .footer-link-wrapper {
@@ -138,7 +153,4 @@
   .social-media-wrap {
     flex-direction: column;
   }
-}
-
-@media screen and (max-width: 768px) {
 }

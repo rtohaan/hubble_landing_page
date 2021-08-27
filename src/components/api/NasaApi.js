@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
 import './NasaApi.css'
-// const NasaKey = process.env.REACT_APP_NASA_KEY;
+// import { NASA_API_KEY } from '../../config/keys';
 
 function NasaApi() {
   const [photo, setPhoto] = useState(null);
-
 
   useEffect(() => {
     fetchPhoto();
 
     async function fetchPhoto() {
+
+      // fetch the photo
+      // implement start_date to retrieve photos from a certain date 
       const res = await fetch(
-        `https://api.nasa.gov/planetary/apod?api_key=iN7s6WaDS9fvVRTRFMnU2Je8iVThqJ5AF4bCLEfB`
+        `https://api.nasa.gov/planetary/apod?api_key=${NASA_API_KEY}`
       );
       const data = await res.json();
       setPhoto(data);

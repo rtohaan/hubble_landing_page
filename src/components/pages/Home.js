@@ -1,7 +1,7 @@
 import '../../App.css';
-import Cards from '../Cards';
-import Footer from '../Footer';
-import HeroSection from '../HeroSection';
+import Cards from '../cards/Cards';
+import Footer from '../layout/Footer';
+import HeroSection from '../layout/HeroSection';
 
 function Home () {
     return (
